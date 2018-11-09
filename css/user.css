@@ -1,0 +1,148 @@
+.speaker {
+    margin-top: 15px;
+}
+.speaker .speaker-photo {
+    width: 80%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+.speaker .speaker-photo img {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+.speaker .keynote-name {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.5em;
+}
+.speaker .keynote-position {
+    text-align: center;
+    padding-top: 0px;
+    font-size: 0.95em;
+}
+.speaker .keynote-affiliation {
+    text-align: center;
+    padding-top: 0px;
+    font-style: italic;
+    font-size: 0.75em;
+}
+.speaker .speaker-name {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 0.85em;
+}
+.speaker .speaker-position,.speaker .speaker-topic {
+    text-align: center;
+    padding-top: 0px;
+    font-size: 0.75em;
+}
+.speaker .speaker-affiliation {
+    text-align: center;
+    padding-top: 0px;
+    font-style: italic;
+    font-size: 0.65em;
+}
+.speaker .speaker-bio {
+    /* display: none; */
+    font-size: 0.75em;
+    margin-top: 20px;
+}
+.speaker .speaker-social {
+    text-align: center;
+    padding: 5px;
+    font-size: 1.25em;
+}
+
+#speakers .speaker .speaker-photo {
+}
+
+.abstract {
+    display: none;
+    background-color: #ddd;
+    margin-top: 15px;
+    border: 1px dashed;
+    padding: 5px;
+    cursor: pointer;
+}
+.session-abstract {
+    /* display: none; */
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    background-color: lightblue;
+}
+.session-abstract p:last-child {
+    margin-bottom: 0px;
+}
+.session-title {
+    font-weight: bolder;
+}
+.session-title-left {
+    font-weight: bolder;
+    float: left;
+}
+.session-title-left > a > i {
+    font-size: 0.75em;
+}
+.session-talk {
+    font-size: 0.75em;
+    float: left;
+}
+.session-chair {
+    font-size: 0.8em;
+    font-style: italic;
+    margin-bottom: 10px;
+    float: left;
+    clear: left;
+}
+.session-chair::before {
+    content: "Chair: ";
+}
+
+.lightning {
+    color: orange;
+}
+
+.sponsor-logo-right {
+    float: right;
+}
+
+.sponsor-logo {
+    height: 150px;
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+
+.photos {
+    margin-bottom: 15px;
+}
+
+body { padding-top: 50px; }
+
+.navbar-fixed-top {
+  background-color: #2165b6; /* Fallback color */
+  background-color: rgba(0,0,0,0.5);
+}
+
+.sponsor-category {
+  text-align: center;
+  background: silver;
+}
+
+.table-buttons {
+  margin: 10px auto;
+}
+
+.table-buttons td {
+  padding: 10px;
+}

@@ -1,0 +1,187 @@
+<section id="programme">
+<script>
+	$(document).ready(function() {
+    // Configure/customize these variables.
+    var showChar = 200;  // How many characters are shown by default
+    var ellipsestext = "...";
+    var moretext = "Show more >";
+    var lesstext = "Show less";
+    
+
+    $('.more').each(function() {
+        var content = $(this).html();
+ 
+        if(content.length > showChar) {
+ 
+            var c = content.substr(0, showChar);
+            var h = content.substr(showChar, content.length - showChar);
+ 
+            var html = c + '<span class="moreellipses">' + ellipsestext+ '&nbsp;</span><span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink">' + moretext + '</a></span>';
+ 
+            $(this).html(html);
+        }
+ 
+    });
+ 
+    $(".morelink").click(function(){
+        if($(this).hasClass("less")) {
+            $(this).removeClass("less");
+            $(this).html(moretext);
+        } else {
+            $(this).addClass("less");
+            $(this).html(lesstext);
+        }
+        $(this).parent().prev().toggle();
+        $(this).prev().toggle();
+        return false;
+    });
+});
+</script>	
+  
+<!--<h2>Programme</h2> -->
+	
+
+<!--<table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Start</th>
+                <th>End</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>09:00</td>
+                <td>10:35</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>Mariachiara Fortuna: The full automation - Project and code design for a massive reporting system with R</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>Cervan Girard: Shiny Application - from package development to server deployment</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>Marko Galjak: Using R for Social Network Analysis of Philanthropy - Leveraging Relational Data for Smarter Giving</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>Peter Laurinec: Time Series Data Mining - from PhD to Startup</td>
+            </tr>
+            <tr>
+                <td>10:35</td>
+                <td>11:05</td>
+                <td><strong>Coffee Break</strong></td>
+            </tr>
+            <tr>
+                <td>11:05</td>
+                <td>12:40</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>Dragana Radojicic: Machine Learning in Finance</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>Viktor Tisza: R for cross-sell modeling</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>Marcin Kosinski: Multi-state churn analysis, with the subscription based product</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>Lubomir Stepanek: Machine-learning and R in plastic surgery - Classification and attractiveness of facial emotions</td>
+            </tr>
+            <tr>
+                <td>12:40</td>
+                <td>14:10</td>
+                <td><strong>Lunch</strong></td>
+            </tr>
+            <tr>
+                <td>14:10</td>
+                <td>15:45</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>Nadica Miljkovic: Digital biosignal processing with R</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>Sandro Radovanovic: White Box Clustering in R</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>Tamas Nagy: Meta-analysis data management with the {metamanager} package</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>Ildiko Czeller: The essentials to work with object-oriented systems in R</td>
+            </tr>
+            <tr>
+                <td>15:45</td>
+                <td>16:15</td>
+                <td><strong>Coffee Break</strong></td>
+            </tr>
+            <tr>
+                <td>16:15</td>
+                <td>17:50</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>Andjela Todorovic: Markov chain simulation in R</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>Steph Locke: SQL Server and R for real-time predictions</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>Filip Rodik: ETL with R</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>Radmila Velickovic: Potentials of R for data linkage</td>
+            </tr>   
+            <tr>
+                <td>17:50</td>
+                <td>18:00</td>
+                <td><strong>Official Closing</strong></td>
+            </tr>
+        </tbody>
+    </table>-->
+    
+<!--<h3>Nadica Miljkovic: Digital biosignal processing with R</h3>
+
+<div class="more">
+Though R gained high popularity in recent years in areas of data science and bioinformatcs, the applicaton of R programming for digital signal processing is not widespread to large extent. “Signal” is the most popular CRAN package for signal processing in R. This package contains functons for fltering resampling, interpolaton and other routnes based on traditonal Matlab and GNU Octave functonality.
+<br>
+Besides “signal”, other useful basic signal processing packages (e.g.s “wavelets”) and specialized packages for digital biosignal processing (e.g.s heart rate variability analysis – “RHRV” package processing of event-related brain potentals – “erpR”, analysis and evaluaton of electroencephalography data – “eegkit”, routnes for processing and modeling of electromyography signals – “biosignalEMG”) provide solid foundaton for R applicaton in digital biosignal processing.
+<br>
+In this talk, besides brief overview of R for biosignal processings we will demonstrate some useful signal processing techniques implemented in R aiming at artfact cancellaton in biosignals.
+</div>-->
+	
+	
+</section>
