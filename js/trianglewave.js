@@ -142,15 +142,15 @@ function getImg () {
   var ratio = vp.ratio;
   var width = vp.width;
   if (width > 1080) {
-    return 'images/agrotech.jpg';
+    return 'images/paris2.jpg';
   } else if (width > 720 && ratio > 1) {
-    return 'images/agrotech.jpg';
+    return 'images/paris2.jpg';
   } else if (width > 720 && ratio == 1) {
-    return 'images/agrotech.jpg';
+    return 'images/paris2.jpg';
   } else if (ratio > 1) {
-    return 'images/agrotech.jpg';
+    return 'images/paris2.jpg';
   } else {
-    return 'images/agrotech.jpg';
+    return 'images/paris2.jpg';
   }
 }
 
