@@ -1,0 +1,7 @@
+---
+layout: default
+img: images/ArData.png
+alt: ArData
+name: ArData
+twitter: davidgohel
+---

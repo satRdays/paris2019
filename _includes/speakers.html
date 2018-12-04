@@ -2,24 +2,22 @@
   <h2>Speakers</h2>
 
 <!--<p>Information to be announced soon.</p>-->
-  <h4>Keynote speakers</h4>
-    
+  <h4>Speakers</h4>
   <div class="row" >
-    <div class="col-sm-12">
+    {% for post in site.posts %}
+    <div class="col-sm-4">
       <div class="speaker">
         <div class="speaker-photo" style="width: 300px">
-          <img src="images/speakers/profile-lionel-henry.png" />
+          <img src="{{post.img}}" />
         </div>
         <div class="keynote-name">
-         Lionel Henry
+         {{post.name}}
         </div>
         <div class="keynote-position">
-          Software Engineer at RStudio
+          {{post.job}}
         </div>
         <div class="speaker-social">
-          <a href="https://twitter.com/_lionelhenry"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-<!--          <a href="http://heatherturner.net/"><i class="fa fa-globe" aria-hidden="true"></i></a>-->
-        </div>
+          <a href="https://twitter.com/{{post.twitter}}"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 <!--        <div class="speaker-bio">
           Heather is a freelance consultant with over ten years experience providing statistical and programming support to investigators in statistics, social science, drug discovery, bioinformatics and agriculture. She regularly develops packages as part of her
           work and is a maintainer/contributor of six packages on CRAN (BradleyTerry2, forwards, gnm, PlackettLuce, logmult, vcdExtra). Heather is an active member of the R community, in particular she is on the board of the R Foundation and chairs the
@@ -27,27 +25,8 @@
         </div>-->
       </div>
     </div>
-<!--    <div class="col-sm-6">
-      <div class="speaker">
-        <div class="speaker-photo">
-          <img src="images/speakers/profile-andrea-melloncelli.jpg" />
-        </div>
-        <div class="keynote-name">
-          Andrea Melloncelli
-        </div>
-        <div class="keynote-position">
-          Data Scientist at Quantide
-        </div>
-        <div class="speaker-social">
-          <a href="https://twitter.com/akirocode"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-        </div>
-        <div class="speaker-bio">
-          Kathrine is a data scientist with extensive experience in exploratory data analysis, predictive modelling, multivariate analyses, and longitudinal data. She has worked in R for the past 10 years, and has more recently learned python. She received a PhD in human genetics in 2009 from Trinity College Dublin, and subsequently worked at King’s College London, Belgrade University and the University of Bristol in the area of human genomics. As part of her job with Belgrade University, she taught Beginner’s R workshops, which covered the basics of R, the tidyverse package, plotting with ggplot2, and RMarkdown. Kathrine recently moved out of academia and now works as a data scientist for Admiral in Belgrade.
-        </div>
-      </div>
-    </div>-->
   </div>
-  
+ {% endfor %}
 <!--  <h4>Speakers</h4>-->
 
 <!--  <div class="row">

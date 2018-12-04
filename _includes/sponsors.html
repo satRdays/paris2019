@@ -1,23 +1,50 @@
 <section id="sponsors">
-    <h2>Sponsors</h2>
-    <div class="row">
-      <div class="col-sm-12">
-<!--          <a href="https://www.r-consortium.org/"><img src="images/sponsors/RConsortium_Vertical_Pantone.png" title="R Consortium"></a>-->
+  <div>
+  <p>
+    satRday is a non-profit, volunteer-run event, and we rely on sponsorship for making it happen. We are looking for sponsors for Paris sat<b>R</b>day. Your financial help and commitment to the R community are greatly appreciated and essential to making this event possible! Please get in touch with <a href="mailto:satrdayparis@gmail.com" target="_top">us through email</a> if your business is interested in discussing sponsorship.
+    </p> </div>
+    
+  <div class="row" >
+    <h2>Sponsors Gold</h2>
+    {% for post in site.sponsorsgold %}
+    <div class="col-sm-6">
+      <div class="speaker">
+        <div class="speaker-photo" style="width: 300px">
+          <img src="{{post.img}}" />
+        </div>
+        <div class="keynote-name">
+         {{post.name}}
+        </div>
+        <div class="speaker-social">
+          <a href="https://twitter.com/{{post.twitter}}"><i class="fa fa-twitter" aria-hidden="true"></i></a>
       </div>
-
-<!--       <div class="col-sm-6">
-          <a href="https://itsalocke.com/"><img src="images/sponsors/locke-data.png" title="Locke Data"></a>
-      </div> -->
     </div>
-<!--     <div class="row">
-      <div class="col-sm-6">
-          <a href="https://www.jumpingrivers.com/"><img src="images/sponsors/jumping-rivers.png" title="Jumping Rivers"></a>
+  </div>
+ {% endfor %}
+ 
+</section>
+
+<section id="sponsorsclassic">
+    <div class="row" >
+    <h2>Sponsors</h2>
+    {% for post in site.sponsorsclassic %}
+    <div class="col-sm-4">
+      <div class="speaker">
+        <div class="speaker-photo" style="width: 200px">
+          <img src="{{post.img}}" />
+        </div>
+        <div class="keynote-name">
+         {{post.name}}
+        </div>
+        <div class="speaker-social">
+          <a href="https://twitter.com/{{post.twitter}}"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+<!--        <div class="speaker-bio">
+          Heather is a freelance consultant with over ten years experience providing statistical and programming support to investigators in statistics, social science, drug discovery, bioinformatics and agriculture. She regularly develops packages as part of her
+          work and is a maintainer/contributor of six packages on CRAN (BradleyTerry2, forwards, gnm, PlackettLuce, logmult, vcdExtra). Heather is an active member of the R community, in particular she is on the board of the R Foundation and chairs the
+          Forwards taskforce on women and other under-represented groups.
+        </div>-->
       </div>
-      <div class="col-sm-6">
-          <a href="https://www.sorensonmedia.com/"><img src="images/sponsors/Sorenson-Media-Vert-Primary-FullColor-OFFICE.png" title="JSorenson Media"></a>
-      </div>
-    </div>-->
-    <p>
-        We are looking for sponsors for Paris sat<b>R</b>day. Your financial help and commitment to the R community are greatly appreciated and essential to making this event possible! Please get in touch with <a href="mailto:satrdayparis@gmail.com" target="_top">us through email</a> if your business is interested in discussing sponsorship.
-    </p> 
+    </div>
+  </div>
+ {% endfor %}
 </section>
