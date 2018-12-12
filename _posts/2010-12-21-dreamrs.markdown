@@ -1,0 +1,8 @@
+---
+layout: default
+img: images/Portrait_Placeholder.png
+alt: fanny-meyer
+name:  Fanny Meyer
+job: DataMuse & DataDreamRs at dreamRs
+twitter: _mfaan
+---

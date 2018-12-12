@@ -16,8 +16,13 @@
         <div class="keynote-position">
           {{post.job}}
         </div>
+        {% if post.twitter == 'none' %}
         <div class="speaker-social">
+          <p>&nbsp;</p>
+          {% else %}
+          <div class="speaker-social">
           <a href="https://twitter.com/{{post.twitter}}"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          {% endif %}
 <!--        <div class="speaker-bio">
           Heather is a freelance consultant with over ten years experience providing statistical and programming support to investigators in statistics, social science, drug discovery, bioinformatics and agriculture. She regularly develops packages as part of her
           work and is a maintainer/contributor of six packages on CRAN (BradleyTerry2, forwards, gnm, PlackettLuce, logmult, vcdExtra). Heather is an active member of the R community, in particular she is on the board of the R Foundation and chairs the
