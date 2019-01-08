@@ -1,6 +1,6 @@
 ---
 layout: default
-img: images/Portrait_Placeholder.png
+img: images/corentin_roquebert.jpg
 alt: corentin-roquebert
 name:  Corentin Roquebert
 job: TBA

@@ -1,6 +1,6 @@
 ---
 layout: default
-img: images/Portrait_Placeholder.png
+img: images/hadrien_commenge.png
 alt: hadien-commenge
 name: Hadrien Commenge
 job: Professor in Geography
