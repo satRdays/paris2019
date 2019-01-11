@@ -1,6 +1,6 @@
 ---
 layout: default
-img: images/Portrait_Placeholder.png
+img: images/fanny_meyer.png
 alt: fanny-meyer
 name:  Fanny Meyer
 job: DataMuse & DataDreamRs at dreamRs
