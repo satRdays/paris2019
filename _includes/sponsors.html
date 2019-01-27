@@ -15,8 +15,13 @@
         <div class="keynote-name">
          {{post.name}}
         </div>
+        {% if post.twitter == 'none' %}
         <div class="speaker-social">
+          <p>&nbsp;</p>
+          {% else %}
+          <div class="speaker-social">
           <a href="https://twitter.com/{{post.twitter}}"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          {% endif %}
           <a href="{{post.website}}"><i class="fa fa-globe" aria-hidden="true"></i></a>
       </div>
     </div>
