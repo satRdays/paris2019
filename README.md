@@ -26,9 +26,7 @@ tmap
 
 #### 13:30	15:00	Sophie Donnet: Machine Learning, deep learning with R (FULL)
 
-```
-# No Specific requirements
-```
+See [these instructions](installation_instructions.pdf)
 
 #### 13:30	15:00	Corentin Roquebert: Textual analysis with R
 
