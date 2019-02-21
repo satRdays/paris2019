@@ -3,13 +3,13 @@
 
 ## Workshops - packages requirements 
 
-11:00	12:30	Susan Baert: Introduction to the tidyverse.
+#### 11:00	12:30	Susan Baert: Introduction to the tidyverse.
 
 ```
 tidyverse
 ```
 
-11:00	12:30	Étienne Côme, Kim Antunez, Timothée Giraud: Spatial data and cartography
+#### 11:00	12:30	Étienne Côme, Kim Antunez, Timothée Giraud: Spatial data and cartography
 
 ```
 cartography (>=2.2.0)
@@ -24,13 +24,13 @@ SpatialPosition
 tmap
 ```
 
-13:30	15:00	Sophie Donnet: Machine Learning, deep learning with R (FULL)
+#### 13:30	15:00	Sophie Donnet: Machine Learning, deep learning with R (FULL)
 
 ```
 # No Specific requirements
 ```
 
-13:30	15:00	Corentin Roquebert: Textual analysis with R
+#### 13:30	15:00	Corentin Roquebert: Textual analysis with R
 
 ```
 tm
@@ -43,7 +43,7 @@ remotes::install_github("juba/rainette"))
 
 Corpus is available [here](corpusrap_clean.csv)
 
-15:30	17:00	Andrew Collier Markdown: Reproducible Research and Automated Reporting.
+#### 15:30	17:00	Andrew Collier Markdown: Reproducible Research and Automated Reporting.
 
 - [`tidyverse`](https://cran.r-project.org/web/packages/tidyverse/)
 - [`mailR`](https://cran.r-project.org/web/packages/mailR/)
@@ -57,10 +57,10 @@ Corpus is available [here](corpusrap_clean.csv)
 - [`emo`](https://github.com/hadley/emo)
 - [`plotly`](https://cran.r-project.org/web/packages/plotly/)
 - [`rtweet`](https://cran.r-project.org/web/packages/rtweet/)
-- [`telegram`](https://cran.r-project.org/web/packages/telegram/) and
+- [`telegram`](https://cran.r-project.org/web/packages/telegram/)
 - [`slackr`](https://cran.r-project.org/web/packages/slackr/)
 
-15:30	17:00	DataThon - "Students well being"
+#### 15:30	17:00	DataThon - "Students well being"
 
 ```
 # No Specific requirements
