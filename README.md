@@ -23,6 +23,14 @@ sf (>=0.7-2) (for Unix-alikes systems, see: https://github.com/r-spatial/sf#linu
 SpatialPosition
 tmap
 ```
+We invite you to download the data (1.3 MB) you will need for this workshop in advance:
+```{r}
+# download the dataset
+download.file("https://github.com/comeetie/satRday/blob/master/exercises/data.zip?raw=true", 
+              destfile = "data.zip")
+# unzip
+unzip("data.zip",exdir=".") 
+```
 
 #### 13:30	15:00	Sophie Donnet: Machine Learning, deep learning with R (FULL)
 
