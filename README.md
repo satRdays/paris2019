@@ -54,6 +54,18 @@ Corpus is available [here](corpusrap_clean.csv)
 
 #### 15:30	17:00	Andrew Collier Markdown: Reproducible Research and Automated Reporting.
 
+This tutorial is for you if
+
+- you know a bit of R;
+- you might (or might not) be familiar with R Markdown; and
+- you are interested in using R to generate reports (or other automated documents).
+
+This tutorial is *not* for you if
+
+- you're an R Markdown wizard/ninja/deity.
+
+Please install the following packages:
+
 - [`tidyverse`](https://cran.r-project.org/web/packages/tidyverse/)
 - [`mailR`](https://cran.r-project.org/web/packages/mailR/)
 - [`knitr`](https://cran.r-project.org/web/packages/knitr/)
@@ -61,13 +73,6 @@ Corpus is available [here](corpusrap_clean.csv)
 - [`scales`](https://cran.r-project.org/web/packages/scales/)
 - [`hrbrthemes`](https://cran.r-project.org/web/packages/hrbrthemes/)
 - [`countrycode`](https://cran.r-project.org/web/packages/countrycode/)
-- [`rvest`](https://cran.r-project.org/web/packages/rvest/)
-- [`glue`](https://cran.r-project.org/web/packages/glue/)
-- [`emo`](https://github.com/hadley/emo)
-- [`plotly`](https://cran.r-project.org/web/packages/plotly/)
-- [`rtweet`](https://cran.r-project.org/web/packages/rtweet/)
-- [`telegram`](https://cran.r-project.org/web/packages/telegram/)
-- [`slackr`](https://cran.r-project.org/web/packages/slackr/)
 
 #### 15:30	17:00	DataThon - "Students well being"
 
