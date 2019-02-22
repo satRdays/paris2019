@@ -54,13 +54,13 @@ Corpus is available [here](corpusrap_clean.csv)
 
 #### 15:30	17:00	Andrew Collier Markdown: Reproducible Research and Automated Reporting.
 
-This turorial is for you if
+This tutorial is for you if
 
 - you know a bit of R;
 - you might (or might not) be familiar with R Markdown; and
 - you are interested in using R to generate reports (or other automated documents).
 
-Who this tutorial is *not* for you if
+This tutorial is *not* for you if
 
 - you're an R Markdown wizard/ninja/deity.
 
