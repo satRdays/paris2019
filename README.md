@@ -23,6 +23,9 @@ sf (>=0.7-2) (for Unix-alikes systems, see: https://github.com/r-spatial/sf#linu
 SpatialPosition
 tmap
 ```
+
+You can find the [lecture](https://comeetie.github.io/satRday/lecture/lecture.html) and the [exercices](https://comeetie.github.io/satRday/exercises/exercises.html) online.
+
 We invite you to download the data (1.3 MB) you will need for this workshop in advance:
 ```{r}
 # download the dataset
