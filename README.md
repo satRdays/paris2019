@@ -74,6 +74,8 @@ Please install the following packages:
 - [`hrbrthemes`](https://cran.r-project.org/web/packages/hrbrthemes/)
 - [`countrycode`](https://cran.r-project.org/web/packages/countrycode/)
 
+The material for the tutorial is available [here](automated-reporting-tutorial.zip).
+
 #### 15:30	17:00	DataThon - "Students well being"
 
 ```
