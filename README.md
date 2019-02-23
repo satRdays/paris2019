@@ -37,7 +37,10 @@ unzip("data.zip",exdir=".")
 
 #### 13:30	15:00	Sophie Donnet: Machine Learning, deep learning with R (FULL)
 
-See [these instructions](installation_instructions.pdf)
+- [Installation instructions](installation_instructions.pdf)
+- [Introduction to deep learning](cours_deeplearning_for_dummies.pdf)
+- [Deep-with-R_tutorial.R](Deep-with-R_tutorial.R)
+- [Deep-with-R.html](Deep-with-R.html)
 
 #### 13:30	15:00	Corentin Roquebert: Textual analysis with R
 
